@@ -17,7 +17,7 @@ with open("application_token.json") as f:
 CLIENT_ID = secrets["clientId"]
 CLIENT_SECRET = secrets["secret"]
 ASTRA_DB_KEYSPACE = "default_keyspace"
-OPENAI_API_KEY = "sk-proj-aPhSDVr2kCbs7gaPtIIBT3BlbkFJVn0RfQ2r0qEvtJldH0M6"
+OPENAI_API_KEY = secrets["openAIKey"]
 
 auth_provider = PlainTextAuthProvider(CLIENT_ID, CLIENT_SECRET)
 cluster = Cluster(
