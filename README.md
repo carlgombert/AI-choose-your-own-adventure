@@ -1,4 +1,4 @@
-# AI-choose-your-own-adventure
+# AI choose your own adventure
 
 Integrating the chatgtp api and a vector database to create a random and continuous game of choose your own adventure with memory.  
   
